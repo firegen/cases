@@ -5,8 +5,6 @@ head();
 ?>
 <h2>Frequency Asked Questions</h2>
 <hr>
-
-
       <!-- FAQ - START -->
       <div class="panel-group" id="accordion">
 	  
@@ -101,15 +99,9 @@ Please attach the troubleshoot.zip file and the task session log output to our c
               </div>
             </div>
           </div>
-
-
-
-
-		
       </div>
 
     <!-- FAQ end -->
-
 
 <?php
 // end
