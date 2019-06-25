@@ -5,9 +5,9 @@ echo 'Make Database </br>';
 
 # MYSQL CONECTION
 	// connect mysql mysql
-	$servername = "localhost";
-	$username = "root";
-	$password = "evg123";
+	$servername = ""; 		// define mysql server hostname/IP
+	$username = "";			// define mysql database user
+	$password = "";			// define mysql user password
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password);
