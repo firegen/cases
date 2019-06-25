@@ -19,7 +19,7 @@ if ($result->num_rows > 0) {
 		
 		
 		?>
-		
+		<hr>
 		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 			Case ID: <br><input type="text" size="40" name="caseid" value="<?php echo $row[id]; ?>" disabled></br>
 			Title: <br><input type="text" size="60" name="title" value="<?php echo $row[caseNAME]; ?>"></br>
