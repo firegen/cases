@@ -3,7 +3,7 @@ include 'function.php';
 head();
 
 // MySQL connection
-$servername = "localhost";
+$servername = "localhost"; // define db hostname 
 $username = "root";
 $password = "evg123";
 $dbname = "CasesDb";
