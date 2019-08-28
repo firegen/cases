@@ -28,10 +28,6 @@ if (isset($_GET["search"])) {
 		echo $data;
 
 		if(preg_match('(bad|naughty)', $data)) {	echo 'true'; } 
-	
-	
-	
-	
 	}
 
 
